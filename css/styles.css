@@ -603,6 +603,10 @@ margin-bottom: 8px;
     padding-top: 8px;
 }
 
+.modal-feild-area{
+    margin-bottom: 16px;
+}
+
 .chcek-text{
     font-family: "Roboto", sans-serif;
     display: block;
