@@ -597,10 +597,16 @@ margin-bottom: 8px;
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 4px;
-    border: 1.25px solid #2e2f42;
-    background-color: transparent;
-    padding-left: 16px;
-    padding-top: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    padding: 8px 16px; 
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-feild-area{
