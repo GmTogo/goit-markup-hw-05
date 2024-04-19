@@ -646,9 +646,5 @@ margin-bottom: 8px;
 .modal-check:checked + .chcek-text span{
     background-color: #404bbf;
     border: none;
-    fill:  #F4F4FD;
-}
-.user-privacy-police{
-    color: #4d5ae5;
-    
+    fill: #F4F4FD;
 }
