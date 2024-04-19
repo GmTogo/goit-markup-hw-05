@@ -540,8 +540,10 @@ margin-bottom: 8px;
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 4px;
-    border: 1.25px solid #2e2f42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 38px;
 }
 
@@ -559,7 +561,7 @@ margin-bottom: 8px;
     margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
