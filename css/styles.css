@@ -518,6 +518,11 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
+.modal-btn-icon:hover,
+.modal-btn-icon:focus {
+    fill: #ffffff;
+} 
+
 .modal-title{
     font-weight: 500;
     font-size: 16px;
@@ -573,6 +578,7 @@ margin-bottom: 8px;
 
 .modal-feild{
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-field-icon{
@@ -580,6 +586,8 @@ margin-bottom: 8px;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-text{
