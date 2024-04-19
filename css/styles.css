@@ -642,3 +642,9 @@ margin-bottom: 8px;
     justify-content: center;
     fill: transparent;
 }
+
+.modal-check:checked + .chcek-text span{
+    background-color: #404bbf;
+    border: none;
+    fill:  #F4F4FD;
+}
