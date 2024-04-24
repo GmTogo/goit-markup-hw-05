@@ -598,8 +598,8 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
-.modal-btn-icon:hoverr > svg,
-.modal-btn-icon:focusr > svg{
+.modal-btn-icon:hover > svg,
+.modal-btn-icon:focus > svg{
     fill: #ffffff;
 } 
 
